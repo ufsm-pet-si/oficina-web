@@ -1,36 +1,5 @@
-.grid-template {
-  display: grid;
-  grid-template-columns: minmax(120px, 2fr) 2fr 0.1fr;
-  grid-template-areas: "conteudo card nav";
-  transform: translate(50%, 50%);
-  max-width: 50%;
-  border: 2px solid black;
-  border-radius: 30px;
-  background: #686de0;
-}
-
-.conteudo {
-  grid-area: conteudo;
-}
-
-.card-footer ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card-footer ul li {
-  margin-left: 80px;
-}
-
-.cartao {
-  grid-area: card;
-}
-
-.vertical_menu {
-  grid-area: nav;
-  margin-top: 50px;
-}
-
-.vertical_menu li {
-  margin-top: 20px;
+.hero {
+  background-image: url(../img/background_1.jpg);
+  background-size: cover;
+  background-blend-mode: soft-light;
 }
