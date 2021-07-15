@@ -3,12 +3,16 @@
 .navbar {
   display: grid;
   justify-items: center;
-  background: #182c61;
+  background: #3b3b98;
   border-bottom: 2px solid black;
 }
 
 .navbar a {
   color: white;
+}
+
+#navbarBasicExample {
+  background: #3b3b98;
 }
 .navbar .icon {
   font-size: 2em;
@@ -22,6 +26,18 @@
   background-blend-mode: soft-light;
 }
 
+.hero .card {
+  background: none;
+}
+
+.hero .title {
+  font-size: 34px;
+}
+
+.hero .subtitle {
+  font-size: 40px;
+  padding: 20px;
+}
 /* Section 2 */
 
 .section_2 {
@@ -97,6 +113,34 @@
 
 .section_3 .icon {
   font-size: 2em;
+}
+
+.section_3 .columns {
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.section_3 .card .card-content {
+  margin-top: 5px;
+  background: #182c61;
+  padding: 50px;
+  color: white;
+}
+
+.section_3 .title {
+  color: white;
+}
+
+.section_3 .subtitle {
+  color: white;
+}
+
+.section_3 .card-footer {
+  background: #182c61;
+}
+
+.section_3 .card {
+  background: none;
 }
 
 /*Carousel*/
@@ -194,4 +238,9 @@
   margin-bottom: 10px;
 }
 
-/* Efeito Hover Carousel */
+/* Footer */
+
+.section_5 .footer {
+  background: #3b3b98;
+  color: white;
+}
