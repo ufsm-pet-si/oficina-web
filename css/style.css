@@ -1,3 +1,9 @@
+/*Efeito slow */
+
+html {
+  scroll-behavior: smooth;
+}
+
 /*Navbar*/
 
 .navbar {
@@ -5,6 +11,8 @@
   justify-items: center;
   background: #3b3b98;
   border-bottom: 2px solid black;
+  position: fixed;
+  width: 100%;
 }
 
 .navbar a {
@@ -20,6 +28,10 @@
 
 /* Hero/Section 1 */
 
+.section_1 .hero-body {
+  margin-top: 100px;
+}
+
 .hero {
   background-image: url(../img/background_1.jpg);
   background-size: cover;
@@ -28,6 +40,7 @@
 
 .hero .card {
   background: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 .hero .title {
@@ -147,6 +160,11 @@
 
 .section_4 {
   background: #182c61;
+  overflow: hidden;
+}
+
+.section_4 .slider-page {
+  visibility: hidden;
 }
 
 .section_4 h1 {
@@ -223,6 +241,7 @@
   border-radius: 15px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
   transition: 0.5s;
+  min-width: 200px;
 }
 
 .section_4 .card:hover {
@@ -230,12 +249,22 @@
   box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
 }
 
+.section_4 .card-image {
+  margin: 5px;
+}
+
 .section_4 .card-content {
   padding: 20px 10px;
+  color: white;
 }
 
 .section_4 .card-content .title {
   margin-bottom: 10px;
+  color: white;
+}
+
+.slider-item {
+  padding-left: 20px;
 }
 
 /* Footer */
@@ -243,4 +272,5 @@
 .section_5 .footer {
   background: #3b3b98;
   color: white;
+  border-top: 2px solid black;
 }
